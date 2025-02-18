@@ -1,16 +1,8 @@
-#headingThree {
-    color: blue;
-}
-
-#headingFour {
-    color: orange;
-}
-
-.classOne {
-    color: pink;
-}
-
 #box {
     color: white;
     background-color: blue;
+}
+
+.heading {
+    color: red;
 }
