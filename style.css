@@ -1,12 +1,8 @@
-#box {
-    color: white;
-    background-color: blue;
+h1 {
+    text-align: right;
 }
 
-.heading {
-    color: red;
-}
 
-h1, h2, h3 {
-    color: blueviolet;
+p {
+    text-align:start;
 }
