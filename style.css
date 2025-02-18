@@ -1,8 +1,9 @@
 h1 {
-    text-align: right;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
 p {
-    text-align:start;
+    text-align:left;
 }
