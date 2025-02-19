@@ -6,5 +6,8 @@ h1 {
 
 p {
     text-align:left;
-    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
 }
