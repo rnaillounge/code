@@ -1,11 +1,7 @@
-p {
-    text-align:left;
-}
-
-a {
-    text-decoration: red underline;
-}
-
 #one {
-    font-family: arial;
+    font-size: 25px;
+}
+
+#three {
+    font-size: 12px;
 }
