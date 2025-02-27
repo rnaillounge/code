@@ -1,21 +1,14 @@
-div {
-        height: 100px;
-        width: 100px;
-        background-color: aqua;
-        display: inline-block;
-        border: 2px solid black;
+h3 {
+        text-align: center;
+        
 }
 
-#box1 {
+div {
+        width: 200px;
+        height: 200px;
         background-image: url("cat_image.jpg");
         background-size: cover;
-        /* background-repeat: no-repeat; */
-
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
 }
-
-/* body {
-        background-image: url("cat_image.jpg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-repeat: no-repeat;
-} */
