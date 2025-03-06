@@ -1,35 +1,28 @@
 div {
-        height: 50px;
-        width: 50px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: chocolate;
+        /* transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+        transition-delay: 2s; */
+        transition: all 5s steps(5) 1s;
+
+}
+
+div:hover {
+
+        background-color: blue;
+        color: white;
+
+}
+
+div:active {
+
         background-color: yellow;
-        
 }
 
-@media (min-width : 600px) {
-        div {
-                background-color: red;
-                border: 2px solid black;
-                border-radius: 5px;
-                
-        }
-        
-}
 
-@media (max-width : 600px) {
-        div {
-                background-color: blue;
-                border: 5px dotted black;
-                border-radius: 5px;
-                width: 25px;
-                height: 25px;
-        }
-}
-
-@media (min-width: 200px) and (max-width: 400px) {
-        div {
-                background-color: aqua;
-                border: 2px solid orange;
-                width: 150px;
-                height: 150px;
-        }
-}
+ 
