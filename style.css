@@ -34,7 +34,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50% -50%);
+        /* transform: translate(-50% -50%); */
         /* animation: spinAnimate2 1s linear infinite; */
         animation-name: spinAnimate2;
         animation-duration: 1s;
@@ -49,12 +49,11 @@
 @keyframes spinAnimate {
 
         from {
-                transform: rotate(360deg);
-
+                transform: rotate(0deg);
         }
 
         to {
-                transform: rotate(0deg);
+                transform: rotate(360deg);
         }
 
 
@@ -63,12 +62,11 @@
 @keyframes spinAnimate2 {
 
         from {
-               transform:  translate(-50%, -50%) rotate(0deg);
-
+               transform:  translate(-50% , -50%) rotate(360deg);
         }
 
         to {
-                transform: translate(-50%, -50%) rotate(360deg);
+                transform: translate(-50% , -50%) rotate(0deg);
         }
 
 
