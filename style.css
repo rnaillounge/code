@@ -1,8 +1,76 @@
-div {   
-       
+
+.loader { 
+
+       width: 100px;
+       height: 100px;
+       margin: 50px;
+       border: 15px solid black;
+       border-top: 15px solid aqua;
+       border-bottom: 15px solid aqua;
+       border-left: 15px solid darkorchid;
+       border-right: 15px solid chocolate;
+       border-radius: 50%;
+       position: relative;
+       animation: spinAnimate 2s linear infinite;
+       /* animation-name: spinAnimate;
+       animation-duration: 4s;
+       animation-timing-function: linear;
+       animation-iteration-count: infinite;
+       animation-direction: normal; */
+
 
 }
 
+.loader2 {  
+        
+        width: 50px;
+        height: 50px;
+        border: 15px solid black;
+        border-top: 15px solid yellow;
+        border-bottom: 15px solid yellow;
+        border-left: 15px solid darkorchid;
+        border-right: 15px solid chocolate;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% -50%);
+        /* animation: spinAnimate2 1s linear infinite; */
+        animation-name: spinAnimate2;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+ 
+ 
+ }
 
 
+@keyframes spinAnimate {
+
+        from {
+                transform: rotate(360deg);
+
+        }
+
+        to {
+                transform: rotate(0deg);
+        }
+
+
+}
+
+@keyframes spinAnimate2 {
+
+        from {
+               transform:  translate(-50%, -50%) rotate(0deg);
+
+        }
+
+        to {
+                transform: translate(-50%, -50%) rotate(360deg);
+        }
+
+
+}
  
