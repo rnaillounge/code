@@ -1,75 +1,8 @@
 div {   
-        width: 100px;
-        height: 100px;
-        border: 2px solid gray;
-        border-radius: 5px;
-        background-color: yellow;
-        position: relative;
-        top: 100px;
-        left: 300px;
-        /* animation-name: firstAnimate;
-        animation-duration: 2s;
-        /* animation-timing-function: ease-in-out; */
-        /* animation-delay: 0s;
-        animation-iteration-count: infinite;
-        animation-direction: alternate; */ 
-
-        animation: firstAnimate 6s ease-in 0s infinite alternate;
+       
 
 }
 
-@keyframes firstAnimate {
-        0% {
-                background-image: yellow;
-                left: 0px;
-        
-        }
-
-        20% {
-                background-color: red;
-                left: 50px;
-                top: -50px;
-        }
-
-        40% {
-                background-color: aqua;
-                left: 150px;
-                top: 300px;
-        }
-
-        60% {
-                background-color: aqua;
-                left: 250px;
-                top: -50px;
-        }
-
-        80% {
-                background-color: brown;
-                left: 350px;
-                top: 300px;
-        }
-
-
-        100% {
-                background-color: green;
-                color: black;
-                left: 450px;
-                top: -50px;
-                border-radius: 50%;
-                
-
-        
-        }
-}
-
-div:hover {
-
-        background-color: aquamarine;
-        color: darkgrey;
-        border: 2px solid blue;
-        /* left: inherit; */
-        
-}
 
 
  
