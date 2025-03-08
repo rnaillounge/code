@@ -1,27 +1,44 @@
-div {
-        width: 200px;
-        height: 200px;
+div {   
+        width: 100px;
+        height: 100px;
         border: 2px solid black;
         border-radius: 5px;
         background-color: chocolate;
+        position: relative;
+        top: 100px;
+        left: 300px;
+        transition-property: all;
+        transition-duration: 2s;
+        transition-timing-function: ease-in ;
         /* transition-property: all;
         transition-duration: 2s;
         transition-timing-function: ease-in;
         transition-delay: 2s; */
-        transition: all 5s steps(5) 1s;
-
+        /* transition: all 5s ease-in 1s; */
+              
 }
 
 div:hover {
-
+        
         background-color: blue;
-        color: white;
+        color: darkblue;
+        /* transform: scale(2); */
+        /* transform: rotate(180deg); */
+        /* rotate: z 90deg; */
+        /* transition: all 5s ease-in 1s; */
+        /* transition-delay: 2s; */    
+        transform: skew(90deg);
+        
 
 }
 
 div:active {
 
         background-color: yellow;
+        width: 50px;
+        height: 30px;
+        transform: scale(1.2);
+        
 }
 
 
